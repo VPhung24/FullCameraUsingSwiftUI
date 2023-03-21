@@ -14,6 +14,7 @@
 		0800681329C93CAC0025BF1D /* WhatChaUp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800681229C93CAC0025BF1D /* WhatChaUp2Tests.swift */; };
 		0800681D29C93CAC0025BF1D /* WhatChaUp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800681C29C93CAC0025BF1D /* WhatChaUp2UITests.swift */; };
 		0800681F29C93CAC0025BF1D /* WhatChaUp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800681E29C93CAC0025BF1D /* WhatChaUp2UITestsLaunchTests.swift */; };
+		0800682C29C93CC10025BF1D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800682B29C93CC10025BF1D /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0800681829C93CAC0025BF1D /* WhatChaUp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatChaUp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0800681C29C93CAC0025BF1D /* WhatChaUp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChaUp2UITests.swift; sourceTree = "<group>"; };
 		0800681E29C93CAC0025BF1D /* WhatChaUp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChaUp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0800682B29C93CC10025BF1D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0800680129C93CAB0025BF1D /* WhatChaUp2App.swift */,
 				0800680329C93CAB0025BF1D /* ContentView.swift */,
+				0800682B29C93CC10025BF1D /* CameraView.swift */,
 				0800680529C93CAB0025BF1D /* Assets.xcassets */,
 				0800680729C93CAB0025BF1D /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0800682C29C93CC10025BF1D /* CameraView.swift in Sources */,
 				0800680429C93CAB0025BF1D /* ContentView.swift in Sources */,
 				0800680229C93CAB0025BF1D /* WhatChaUp2App.swift in Sources */,
 			);
@@ -345,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,11 +424,13 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos at a certain time";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +455,13 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos at a certain time";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
